@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 2em;
+    background-color: white;
+    margin: 1em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+section h3 {
+    color: #4CAF50;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.gallery img,
+.gallery video {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.perangkat {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.perangkat-item {
+    text-align: center;
+}
+
+.perangkat-item img {
+    border-radius: 50%;
+}
+
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu ul li {
+    margin: 0.5em 0;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.submenu ul li a:hover {
+    text-decoration: underline;
+}
+
+#map-container {
+    text-align: center;
+}

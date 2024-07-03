@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Mojorayung</title>
+    <link rel="stylesheet" href="css">
+    <script defer src="java"></script>
+</head>
+<body>
+    <header>
+        <h1>Desa Mojorayung</h1>
+        <p>Kecamatan Wungu, Kabupaten Madiun</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#peta">Peta Desa</a></li>
+            <li><a href="#perangkat">Perangkat Desa</a></li>
+            <li><a href="#galeri">Galeri Kegiatan</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Selamat Datang di Website Desa Mojorayung</h2>
+        <p>Website ini menyediakan informasi tentang Desa Mojorayung, Kecamatan Wungu, Kabupaten Madiun.</p>
+        <div class="submenu">
+            <h3>Informasi Desa</h3>
+            <ul>
+                <li><a href="#sejarah">Sejarah Desa</a></li>
+                <li><a href="#budaya">Budaya</a></li>
+                <li><a href="#umkm">UMKM</a></li>
+                <li><a href="#populasi">Populasi Penduduk</a></li>
+            </ul>
+        </div>
+        <section id="sejarah">
+            <h3>Sejarah Desa</h3>
+            <p>Informasi tentang sejarah desa Mojorayung...</p>
+        </section>
+        <section id="budaya">
+            <h3>Budaya</h3>
+            <p>Informasi tentang budaya di desa Mojorayung...</p>
+        </section>
+        <section id="umkm">
+            <h3>UMKM</h3>
+            <p>Informasi tentang UMKM di desa Mojorayung...</p>
+        </section>
+        <section id="populasi">
+            <h3>Populasi Penduduk</h3>
+            <p>Informasi tentang populasi penduduk desa Mojorayung...</p>
+        </section>
+    </section>
+
+    <section id="peta">
+        <h2>Peta Desa</h2>
+        <p>Klik pada peta untuk melihat lebih detail di Google Maps.</p>
+        <div id="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126679.04682279256!2d111.42343737958083!3d-7.561387602922509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bf8f0850a9e3%3A0x5027a76e3563f20!2sMojorayung%2C%20Wungu%2C%20Madiun%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1688401903337!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="perangkat">
+        <h2>Perangkat Desa</h2>
+        <div class="perangkat">
+            <div class="perangkat-item">
+                <img src="kades.jpg" alt="Kepala Desa" style="width:100px;height:100px;">
+                <h3>Nama Kades</h3>
+                <p>Jabatan: Kepala Desa</p>
+                <p>Tugas: Mengawasi dan mengelola seluruh kegiatan desa.</p>
+            </div>
+            <div class="perangkat-item">
+                <img src="sekdes.jpg" alt="Sekretaris Desa" style="width:100px;height:100px;">
+                <h3>Nama Sekretaris</h3>
+                <p>Jabatan: Sekretaris Desa</p>
+                <p>Tugas: Mengurus administrasi dan surat-menyurat desa.</p>
+            </div>
+            <!-- Tambahkan perangkat desa lainnya di sini -->
+        </div>
+    </section>
+
+    <section id="galeri">
+        <h2>Galeri Kegiatan Desa</h2>
+        <div class="gallery">
+            <img src="kegiatan1.jpg" alt="Kegiatan Budaya" style="width:100%;max-width:300px;">
+            <video src="kegiatan2.mp4" controls style="width:100%;max-width:300px;"></video>
+            <!-- Tambahkan lebih banyak foto dan video di sini -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Desa Mojorayung, Kecamatan Wungu, Kabupaten Madiun</p>
+    </footer>
+</body>
+</html>
